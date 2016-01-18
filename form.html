@@ -1,0 +1,88 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Ubermelon Order Form</title>
+        </head>
+        <body>
+            <h1>Order!</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Prices</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Melon Name |</td>
+                        <td>Price per lb</td>
+                    </tr>
+                    <tr>
+                        <td>Watermelon</td>
+                        <td>$1.59</td>
+                    </tr>
+                    <tr>
+                        <td>Honeydew</td>
+                        <td>$0.99</td>
+                    </tr>
+                    <tr>
+                        <td>Crenshaw</td>
+                        <td>$2.19</td>
+                    </tr>
+                    <tr>
+                        <td>Canary</td>
+                        <td>$11.99</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Place your orders here! You know you want to.</p>
+            <form>
+                <label for="field-firstname">First Name</label>
+                    <input type="text" name="firstname" id="field-firstname">
+                <br>
+                <label for="field-lastname">Last Name</label>
+                    <input type="text" name="lastname" id="field-lastname">
+                <br>
+                <label for="field-melontype">Melon Type</label>
+                <select name="melontype" id="field-melontype">
+                    <option value="watermelon">Watermelon</option>
+                    <option value="honeydew">Honeydew</option>
+                    <option value="canteloupe">Canteloupe</option>
+                    <option value="crenshaw">Crenshaw</option>
+                    <option value="canary">Canary</option>
+                </select>
+                <br>
+                <label for="field-quantity">Quantity*:</label>
+                    <input type="text" name="quantity" id="field-quantity">
+                <br>
+                <label>Delivery Time
+                    <input type="radio" name="time" value="am">12:00am-12:00pm
+                    <input type="radio" name="time" value="pm">12:00pm-12:00am
+                    <input type="radio" name="time" value="wat">Time is an illusion
+                </label>
+                <br>
+                <label>Returning Customer?
+                    <input type="radio" name="returning-customer" value="yes">Yes
+                    <input type="radio" name="returning-customer" value="no">No
+                </label>
+                <br>
+                <label>For Statistical Purposes:
+                    <input type="checkbox" name="stats" value="Dog">Dog
+                    <input type="checkbox" name="stats" value="Cat">Cat                    
+                    <input type="checkbox" name="stats" value="Hedgehog">Hedgehog
+                     <input type="checkbox" name="stats" value="Balloonicorn">Balloonicorn
+                    <input type="checkbox" name="stats" value="Yak">Yak
+                </label>
+                    <!----
+                    <p>Gender</p>
+                    <label>Male <input type="checkbox" name="gender" value="Female"></label>
+                    <label for="gender-female">Female</label>
+                    <input type="checkbox" name="gender" value="female" id="gender-female">
+                    <label> ... </label>
+                    ------->
+
+
+
+
+            </form>
+        </body>
+    </html>
